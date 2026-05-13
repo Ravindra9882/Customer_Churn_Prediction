@@ -1,0 +1,14 @@
+Customer Churn Prediction Model
+Model: Pure Python Logistic Regression
+Accuracy: 1.000
+Precision: 1.000
+Recall: 1.000
+F1 Score: 1.000
+
+Confusion Matrix:
+{
+  "truePositive": 1,
+  "trueNegative": 9,
+  "falsePositive": 0,
+  "falseNegative": 0
+}

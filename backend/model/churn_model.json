@@ -1,0 +1,127 @@
+{
+  "modelName": "Pure Python Logistic Regression",
+  "featureColumns": [
+    "tenure",
+    "monthlyCharges",
+    "totalCharges",
+    "contract",
+    "internetService",
+    "paymentMethod",
+    "techSupport",
+    "onlineSecurity",
+    "seniorCitizen",
+    "partner",
+    "dependents"
+  ],
+  "featureNames": [
+    "tenure",
+    "monthlyCharges",
+    "totalCharges",
+    "contract=month-to-month",
+    "contract=one-year",
+    "contract=two-year",
+    "internetService=fiber",
+    "internetService=dsl",
+    "internetService=none",
+    "paymentMethod=electronic-check",
+    "paymentMethod=credit-card",
+    "paymentMethod=bank-transfer",
+    "paymentMethod=mailed-check",
+    "techSupport=yes",
+    "techSupport=no",
+    "onlineSecurity=yes",
+    "onlineSecurity=no",
+    "seniorCitizen=true",
+    "seniorCitizen=false",
+    "partner=true",
+    "partner=false",
+    "dependents=true",
+    "dependents=false"
+  ],
+  "categoricalValues": {
+    "contract": [
+      "month-to-month",
+      "one-year",
+      "two-year"
+    ],
+    "internetService": [
+      "fiber",
+      "dsl",
+      "none"
+    ],
+    "paymentMethod": [
+      "electronic-check",
+      "credit-card",
+      "bank-transfer",
+      "mailed-check"
+    ],
+    "techSupport": [
+      "yes",
+      "no"
+    ],
+    "onlineSecurity": [
+      "yes",
+      "no"
+    ],
+    "seniorCitizen": [
+      "true",
+      "false"
+    ],
+    "partner": [
+      "true",
+      "false"
+    ],
+    "dependents": [
+      "true",
+      "false"
+    ]
+  },
+  "means": {
+    "tenure": 23.266666666666666,
+    "monthlyCharges": 73.81666666666666,
+    "totalCharges": 1467.5
+  },
+  "scales": {
+    "tenure": 19.736486234608453,
+    "monthlyCharges": 16.665574964245575,
+    "totalCharges": 964.3446997832258
+  },
+  "weights": [
+    -1.1696562335745408,
+    1.1932723081386427,
+    -1.2800427255959823,
+    1.2839629130532975,
+    -1.0730667395749498,
+    -0.20389993202455006,
+    0.5849282144858048,
+    -0.5329151761835693,
+    -0.04501679684843567,
+    1.4632263406402697,
+    -0.4438630443501327,
+    -1.1229894467243036,
+    0.11062239188796696,
+    -0.9877016537309957,
+    0.9946978951847939,
+    -1.1403409253594428,
+    1.1473371668132448,
+    0.346233745956429,
+    -0.3392375045026279,
+    -0.7685353397890007,
+    0.775531581242804,
+    -0.17872427868512242,
+    0.1857205201389227
+  ],
+  "bias": 0.006996241453801495,
+  "metrics": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "confusionMatrix": {
+      "truePositive": 1,
+      "trueNegative": 9,
+      "falsePositive": 0,
+      "falseNegative": 0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+customer_id,tenure,monthlyCharges,totalCharges,contract,internetService,paymentMethod,techSupport,onlineSecurity,seniorCitizen,partner,dependents
+CUST001,2,94.5,189.0,month-to-month,fiber,electronic-check,no,no,true,false,false
+CUST002,8,78.2,625.6,month-to-month,fiber,electronic-check,no,yes,false,false,false
+CUST003,24,61.0,1464.0,one-year,dsl,bank-transfer,yes,yes,false,true,false
+CUST004,56,48.5,2716.0,two-year,dsl,credit-card,yes,yes,false,true,true
+CUST005,4,102.0,408.0,month-to-month,fiber,electronic-check,no,no,true,false,false
+CUST006,38,72.4,2751.2,one-year,fiber,bank-transfer,no,yes,false,true,false
+CUST007,63,35.0,2205.0,two-year,none,mailed-check,yes,yes,false,true,true
+CUST008,14,86.9,1216.6,month-to-month,fiber,electronic-check,no,no,false,false,false
+CUST009,31,69.5,2154.5,one-year,dsl,credit-card,yes,no,false,true,false
+CUST010,72,58.0,4176.0,two-year,dsl,bank-transfer,yes,yes,false,true,true
+

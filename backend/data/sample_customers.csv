@@ -1,0 +1,7 @@
+customer_id,tenure,monthlyCharges,totalCharges,contract,internetService,paymentMethod,techSupport,onlineSecurity,seniorCitizen,partner,dependents,churn
+C001,2,91.5,183.0,month-to-month,fiber,electronic-check,no,no,true,false,false,yes
+C002,54,64.2,3466.8,two-year,dsl,credit-card,yes,yes,false,true,true,no
+C003,12,72.8,873.6,one-year,fiber,bank-transfer,no,yes,false,false,false,no
+C004,4,99.0,396.0,month-to-month,fiber,electronic-check,no,no,true,false,false,yes
+C005,38,45.0,1710.0,two-year,none,mailed-check,yes,yes,false,true,false,no
+
