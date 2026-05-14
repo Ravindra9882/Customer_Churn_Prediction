@@ -11,11 +11,9 @@ A final-year-ready full-stack machine learning project for predicting telecom cu
 - SQLite prediction history
 - Pure Python Logistic Regression training pipeline
 - Saved ML model artifact
-- Model metrics endpoint for demo/viva
 - Prediction history dashboard
 - Risk distribution and churn split charts
 - Click-based frontend pages for Prediction, Bulk Upload, Analytics, and Model
-- Deployment-ready config for Render/Vercel/Netlify
 
 ## Project Structure
 
