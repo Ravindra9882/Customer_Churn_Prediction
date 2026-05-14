@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { Activity, BadgeDollarSign, BarChart3, Clock, FileUp, Headphones, ShieldCheck, Table2, TrendingUp, Users } from "lucide-react";
 import "./styles.css";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://customer-churn-prediction-backend-s4wt.onrender.com";
 
 const initialForm = {
   tenure: 6,
